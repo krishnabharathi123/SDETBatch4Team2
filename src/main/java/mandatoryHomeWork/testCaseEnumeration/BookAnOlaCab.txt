@@ -1,0 +1,40 @@
+Booking Ola cabs:
+
+1. Check whether able to book a ola cab without login in.
+2. Able to book a cab outside the city limits.
+3. Able to book a cab from current location to outside the country limit.
+4. Book a cab for Now.
+5. Book a cab "Schedule For later" during peak hours/during the mid nights.
+6. Choose "Pay By" as "Ola Money" when there is no balance available in it.
+7. Try booking a cab by providing Invalid "Coupon Code".
+8. Junk values in From and to location and try to book a cab.
+9. Try booking a cab without providing any values in From and to destination.
+10. Try booking all the available rides for the same destination at the same time.
+11. Continuously book and cancel the ride for more number of time simlutaneously.
+12. Book the rental cars with maximum package hours.
+13. Check the history of your rides in the "Your Rides" page.
+14. Check whether able to re-book the cancelled rides.
+15. Search ola cabs without entering locations.
+
+Globalization:
+1. Try booking a cab for indian location from USA time zone.
+2. Try paying a amount in USD for Indian trip.
+
+Compatablity and Platform:
+1. Check whether we can enter from location in mobile app and continue with the other details in browser.
+2. Have a ola app with updated verion in chrome and old version as a mobile app. Check whether we are able to resume the booking details between both.
+
+Accessibility:
+1. Check whether the from and to location can be added via adjusting google maps.
+2. Verify entering the from and to via text to speech.
+3. Check whether the cab details are shown within 60sec to 2mins.
+4. Do we have a provision to cancel the ride while searching for the neraby available cabs.
+5. Whether the details are resumed back when we lost the network connectivity in between.
+6. Check whether able to locate a destination via google maps when gps is not enabled.
+7. Try booking a cab when network
+
+API:
+1. Able to book a cab through the respective endpoints without any authorization.
+2. Provide the payload for From and To in terms of Latitude and Longitude.
+3. Get the available cabs through GET call.
+4. Check whether we are able to update the booked ride through PUT call.
