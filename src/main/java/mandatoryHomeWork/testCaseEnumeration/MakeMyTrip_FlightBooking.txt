@@ -1,0 +1,38 @@
+1) Check whether able to book the one way flight trip for the current day.
+2) One way flight trip for the past date.
+3) One way flight trip for the long future dates(Example: after 5 years)
+4) Book Flight with same From and To values.
+5) Check whether able to book the round trip without mentioning Return date.
+6) Try to book maximum number of travellers in all the classes
+7) Try to book MultiCity with same set of From and To
+8) Check whether able to book more than one flight for the same time.
+9) Check whether u are able to book a flight without login.
+10) Check whether the flight serach done in browser was resumed in the mobile application.
+11) Try to move to the next page of flight booking without filling the details in mandatory section such as address etc..
+12) In seat selection page, check whether we are able to select the already taken seats.
+13) In seat selections page, check whether we are able to choose the number of seats greater than the no. of members chosen to travel.
+14) Try to select more than one offer during payment.
+15) Apply invalid promo code / already used promo code.
+16) In Complete your booking page, verify whether u are able to add additional travellers.(Ideally should not be done since we have already chosen the seats for previously added count)
+17) Book the cabs for pickup and drop from airport.
+18) If there is one last seat available and while trying to select and pay the seat(entered UPI Id), it was unavailable(may be booked by some other person). Check whether the amount was successfully refunded.
+19) While paying the amount through online transaction, if the network goes down and if prompts to eneter PIN number for 2 to 3 times, the amount  should be deducted only once.Even if amount has been detucted more than once, the extra amount should be refunded.
+20) Check whether we are able to cancel the flight for 1 traveller out of 3 traveller.
+
+Globalization:
+1) Check whether we are able to book a round trip between Chennai and US in USD currency from India. 
+
+Accessibility:
+1) Check the response time to list out the number of available flights.
+
+Compatability and Platform:
+1) Check whether you are able to resume the booking in firefox browser/mobile application from chrome browser
+
+API:
+1) Check whether we can hit a endpoint to book a flight by providing source and destination.
+2) Check the basic auth by providing the username and password.
+3) Get the list of available flights using GET method and check whether all the available flights are listed out or there are any limitations in count.
+4) Update the source or detination or no.of travellers or date through POST call.
+
+DB:
+1) Primary Key constraints --> Check whether we are able to book a flight by providing the same details such as travellers, name, same locationa and on same time.
