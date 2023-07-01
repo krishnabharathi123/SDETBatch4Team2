@@ -212,20 +212,7 @@ public class SeleniumScenarioAssignment_Jira {
 		//driver.findElement(By.xpath("//div[@data-testid='click-wrapper']")).click();
 		driver.findElement(By.xpath("//div[@data-testid='click-wrapper']")).sendKeys("adding jira comments123");*/
 		
-        
-        /* sathish code
-         * //open attach
-		String path = "\\src\\test\\java\\weekDayAssignment\\childIssueAttachment.txt";
-		String dirPath = System.getProperty("user.dir");
-		System.out.println(dirPath + " --***--- " + path);
-		Thread.sleep(3000);
-		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//span[text() = 'Attach']"))).click();
-		act.sendKeys(dirPath+path).build().perform();
-		Thread.sleep(2000);
-		act.sendKeys(Keys.ENTER).perform();
-		Thread.sleep(8000);
-		WebElement atchmnt = wait.until(ExpectedCond
-         */
+
 		
 	}
 
