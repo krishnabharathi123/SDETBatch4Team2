@@ -26,4 +26,25 @@ public class LC_1221_SplitAStringInBalancedStrings {
 	 * else increment lCount;
 	 * if rCount==lCount --> increment o
 	 */
+	public int balancedStringSplit(String s) {
+        int lCount=0;
+        int rCount=0;
+        int out=0;
+        for(int i=0;i<s.length();i++){
+            char ch=s.charAt(i);
+            switch(ch){
+                case 'R':
+                rCount++;
+                break;
+                default: 
+                lCount++;
+            }
+            if(rCount==lCount){
+                out++;
+                lCount=0;
+                rCount=0;
+            }
+        }
+        return out;
+    }
 }
