@@ -88,12 +88,9 @@ public class Amazon {
 		WebElement subTotal = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("attach-accessory-cart-subtotal")));
 		String subT=subTotal.getText();
 		System.out.println(Integer.parseInt(subT.split("₹")[1]));
-		
-		
-		
 		System.out.println("---");
 
-		//driver.quit();
+		driver.quit();
 
 	}
 
